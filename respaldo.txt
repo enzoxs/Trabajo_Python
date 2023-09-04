@@ -1,0 +1,45 @@
+print("**********Bienvenido al sistema Empresa**********")
+print("**********************MENU***********************")
+print("1. Ingreso de nuevo trabajador")
+print("2. Ingreso de nuevo turno")
+print("3. Numero de trabajadores por Genero")
+print("4. Filtro de trabajadores por Genero")
+print("5. El horario de la trabajadora Carla Montenegro")
+print("*************************************************")
+opcion = int(input("Ingrese la opcion que desea realizar: "))
+
+if(opcion==1):
+    print ("**Menu de ingreso de nuevo trabajador***")
+    print ("Estos son los Departamentos disponibles, recuerde que debe ingresar el codigo del departamento")
+    
+    #query = "SELECT  *FROM DEPARTAMENTO limit 1"
+    #pd.read_sql_query(query, sqliteConnection).head(1)    
+    
+    #print("*** Ingrese los datos del nuevo trabajador ***")
+    
+    
+    cursor.close()
+    sqliteConnection.close()
+    #nombre = input("Ingrese el nombre del departamento: ")
+    #apellido = input("Ingrese el apellido del departamento: ")
+    #fecha = input("Ingrese la fecha de nacimiento del departamento: ")
+    #genero = input("Ingrese el genero del departamento: ")
+    #departamento = input("Ingrese el departamento del departamento:")
+    
+elif(opcion==2):
+    print ("Selecciono la opcion 2")
+elif(opcion==3):
+    print ("Selecciono la opcion 3")
+elif(opcion==4):
+    print ("Selecciono la opcion 4")
+elif(opcion==5):
+    print ("Selecciono la opcion 5")
+else:    
+    print("Opcion incorrecta")
+
+#nombre = input("Ingrese el nombre del departamento: ")
+#apellido = input("Ingrese el apellido del departamento: ")
+#fecha = input("Ingrese la fecha de nacimiento del departamento: ")
+#genero = input("Ingrese el genero del departamento: ")
+#departamento = input("Ingrese el departamento del departamento:")
+

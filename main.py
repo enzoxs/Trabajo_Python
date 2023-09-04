@@ -20,6 +20,11 @@ cursor = sqliteConnection.cursor()
 #for row in output
 #   print(row)
     
+    
+#cursor.close()
+#sqliteConnection.close()
+    
+    
 #vista de datos con pandas
 
 query = "SELECT  *FROM DEPARTAMENTO limit 1"
