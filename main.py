@@ -21,10 +21,16 @@ cursor = sqliteConnection.cursor()
 #   print(row)
     
 #vista de datos con pandas
+
 query = "SELECT  *FROM DEPARTAMENTO limit 1"
 pd.read_sql_query(query, sqliteConnection).head(1)    
-    
-    
+
+
+
+
+
+
+
 
 
 
